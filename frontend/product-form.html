@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Inserir produto - Checkpoint 03</title>
+</head>
+
+<body>
+  <main class="form">
+    <form method="post" class="product-form">
+      <label class="label-form">
+        Nome
+        <input type="text" name="name" placeholder="Nome do produto">
+      </label>
+      <label class="label-form">
+        Preço
+        <input type="number" name="price" step=".01" placeholder="Preço do produto">
+      </label>
+      <label class="label-form">
+        Quantidade
+        <input type="number" name="quantity" placeholder="Quantidade em estoque">
+      </label>
+      <button type="submit" class="send-button">Inserir</button>
+    </form>
+  </main>
+  <script src="script/product-form.js"></script>
+</body>
+
+</html>
